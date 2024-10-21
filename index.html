@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr-FR">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
@@ -20,6 +20,8 @@
 		></script>
 		<script src="./assets/maugallery.js"></script>
 		<script src="./assets/scripts.js"></script>
+
+		<title>Portfolio de Nina Carducci</title>
 	</head>
 	<body>
 		<div class="top-header" aria-hidden="false">
@@ -126,7 +128,10 @@
 		</div>
 		<div id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" />
+				<img
+					src="./assets/images/nina.webp"
+					alt="Portrait de Nina Carducci"
+				/>
 			</div>
 			<div id="about-me">
 				<h3 class="about-me__title">A propos de moi</h3>
@@ -304,17 +309,29 @@
 						de 24 heures
 					</p>
 					<form action="" method="post">
-						<label>Nom</label>
-						<input type="text" name="nom" id="nom" />
-						<label>Email</label>
-						<input type="email" name="email" id="email" />
-						<label>Message</label>
-						<textarea
-							name="message"
-							id="message"
-							cols="30"
-							rows="10"
-						></textarea>
+						<label>
+							Nom
+
+							<input type="text" name="nom" id="nom" />
+						</label>
+
+						<label>
+							Email
+
+							<input type="email" name="email" id="email" />
+						</label>
+
+						<label>
+							Message
+
+							<textarea
+								name="message"
+								id="message"
+								cols="30"
+								rows="10"
+							></textarea>
+						</label>
+
 						<input type="submit" value="Envoyer" />
 					</form>
 				</div>
